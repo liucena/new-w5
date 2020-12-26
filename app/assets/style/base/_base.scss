@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.fz {
+    &-ss {
+        font-size: $ss;
+    }
+
+    &-s {
+        font-size: $s;
+    }
+
+    &-m {
+        font-size: $m;
+    }
+
+    &-l {
+        font-size: $l;
+    }
+}
+
+.container {
+    max-width: 918px;
+}
