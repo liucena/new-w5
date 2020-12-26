@@ -1,0 +1,37 @@
+.list-group {
+  min-width: 320px;
+}
+
+.card {
+  min-width: 584px;
+}
+
+.card-title {
+  padding: 12px;
+  margin-bottom: 17px;
+}
+.card-title p {
+  margin-bottom: 4px;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.personal {
+  margin-right: 8px;
+}
+
+code {
+  color: #2A8356;
+  background: #EDF4EE;
+  padding: 2px 4px;
+}
+
+.user-pic {
+  margin-right: 8px;
+}
+
+.material-icons:hover {
+  color: red !important;
+}
